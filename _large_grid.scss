@@ -1,5 +1,13 @@
 $padding-border-left : 100px;
 $padding-border : 100px;
+$sm-break: 48em;
+// colors
+$dark-gray: #727272;
+$med-gray: #b4b3b5;
+$light-gray: #eaeaea;
+$body-font: #020202;
+$link-blue: #0076b6; //why do we have both of these blues?
+$byui-blue: #056cb6;
 .site-banner {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -22,7 +30,6 @@ $padding-border : 100px;
     }
   }
   h1 {
-    // position: absolute;
     grid-row: 2;
   }
 }
@@ -66,7 +73,11 @@ main {
             display: grid;
             grid-template-columns: repeat(3 , 1fr);
             div{
-                padding: 1em;
+                padding: 0.5em;
+                div{
+                  border: solid 1px $dark-gray;
+
+                }
             }
 
         }
@@ -105,5 +116,13 @@ main {
       grid-row:3;
     }
     
+  }
+}
+.site-article-get-information{
+  border: solid red 2px;
+  select{
+    padding: 2px;
+    width: 100%;
+    height: 50px;
   }
 }

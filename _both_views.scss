@@ -44,4 +44,28 @@ input[type="submit"]:hover{
         }
     }
 }
+.site-article-important-dates{
+    h3{
+        padding: 10px;
+
+    }
+    div{
+        a{
+
+            display:grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+    }
+}
+.site-article-new{
+    h2,h3,p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    input{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
 }

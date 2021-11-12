@@ -10,6 +10,9 @@ $byui-blue: #056cb6;
 // header{
 //     border: black solid 2px;
 // }
+a {
+    color: $byui-blue;
+  }
 .site-banner__left {
   background-color: $byui-blue;
   color: rgb(255, 255, 255);
@@ -58,6 +61,7 @@ input[type="submit"]:hover {
     }
   }
   .site-article-resources {
+      padding-top: 3em;
     h3 {
       background-color: $dark-gray;
       color: white;
@@ -69,13 +73,29 @@ input[type="submit"]:hover {
     }
 
   }
+  
+
+  .site-article-important-dates{
+      padding-top: 3em;
+      padding-bottom: 3em;
+      h3{
+
+          background-color: $byui-blue;
+          color:white;
+        }
+        div{
+            border-bottom: solid 1px $med-gray;
+            a{
+                color:#020202;
+            }
+        }
+    }
+    .site-article-new{
+        border: solid 1px $med-gray;
+    }
 }
 .site-article-newsroom {
   .article-newsroom {
     border-top: $dark-gray solid 1px;
   }
-}
-
-a {
-  color: $byui-blue;
 }

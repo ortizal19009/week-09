@@ -10,43 +10,72 @@ $byui-blue: #056cb6;
 // header{
 //     border: black solid 2px;
 // }
-.site-banner__left{
-    background-color: $byui-blue;
-    color:rgb(255, 255, 255);
+.site-banner__left {
+  background-color: $byui-blue;
+  color: rgb(255, 255, 255);
 }
 
-.site-banner__left{
+.site-banner__left {
+  .icon-byui-logo {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+}
 
-    .icon-byui-logo{
-        background-color: black;
-        color:rgb(255, 255, 255);
+.white-text,
+.text-white {
+  color: rgb(255, 255, 255);
+}
+.site-banner__title {
+  background-color: $med-gray;
+  color: $dark-gray;
+}
+input[type="submit"] {
+  background-color: $link-blue;
+  color: $light-gray;
+}
+input[type="submit"]:hover {
+  background-color: $byui-blue;
+}
+.site-article-title {
+  background-color: $body-font;
+  color: #eaeaea;
+}
+
+.pharagrap-newsroom {
+  color: $dark-gray;
+}
+.site-section-information {
+  .site-article-get-information {
+    select {
+      background-color: $light-gray;
+      option {
+        color: #0076b6;
+      }
+      :hover {
+        cursor: pointer;
+      }
     }
-}
-
-.white-text, .text-white{
-    color:rgb(255, 255, 255);
-}
-.site-banner__title{
-    background-color: $med-gray;
-    color:$dark-gray;
-}
-input[type="submit"]{
-    background-color: $link-blue;
-    color:$light-gray
-}
-input[type="submit"]:hover{
-    background-color: $byui-blue;
-    
-}
-.site-article-title{
-    background-color: $body-font;
-    color:#eaeaea;
-}
-
-    a{
-        color: $byui-blue;
+  }
+  .site-article-resources {
+    h3 {
+      background-color: $dark-gray;
+      color: white;
+    }
+    ul {
+        li{
+            border: 1px solid $dark-gray;
+        }
     }
 
-.pharagrap-newsroom{
-    color:$dark-gray
+  }
+}
+.site-article-newsroom {
+  .article-newsroom {
+    border-top: $dark-gray solid 1px;
+  }
+}
+
+a {
+  color: $byui-blue;
 }

@@ -16,3 +16,32 @@ input[type="submit"]:hover{
     cursor: pointer;
     
 }
+.site-section-information{
+
+    
+    .site-article-get-information{
+        select{
+            padding: 1px;
+            width: 100%;
+            height: 40px;
+    }
+}
+.site-article-resources{
+    h3{
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        li{
+            width: 100%;
+           list-style: none; 
+           height: 25px;
+           a{
+               margin: 5px;
+           }
+        }
+    }
+}
+}

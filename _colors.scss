@@ -1,0 +1,44 @@
+$sm-break: 48em;
+// colors
+$dark-gray: #727272;
+$med-gray: #b4b3b5;
+$light-gray: #eaeaea;
+$body-font: #020202;
+$link-blue: #0076b6; //why do we have both of these blues?
+$byui-blue: #056cb6;
+
+// header{
+//     border: black solid 2px;
+// }
+.site-banner__left{
+    background-color: $byui-blue;
+    color:rgb(255, 255, 255);
+}
+
+.site-banner__left{
+
+    .icon-byui-logo{
+        background-color: black;
+        color:rgb(255, 255, 255);
+    }
+}
+
+.white-text, .text-white{
+    color:rgb(255, 255, 255);
+}
+.site-banner__title{
+    background-color: $med-gray;
+    color:$dark-gray;
+}
+input[type="submit"]{
+    background-color: $link-blue;
+    color:$light-gray
+}
+input[type="submit"]:hover{
+    background-color: $byui-blue;
+    
+}
+.site-article-title{
+    background-color: $body-font;
+    color:#eaeaea;
+}

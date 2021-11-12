@@ -1,0 +1,70 @@
+.site-banner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+}
+.site-banner__left {
+  height: 70px;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  .icon-byui-logo {
+    position: absolute;
+    margin-bottom: 0;
+  }
+  a {
+    font-size: 40px;
+    span {
+      padding: 15px;
+    }
+  }
+  h1 {
+    position: absolute;
+    grid-row: 2;
+  }
+}
+.site-banner__title {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+form {
+  grid-row: 1;
+  grid-column-start: 6;
+  grid-column-end: 13;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  .site-section-media {
+    padding: 30px;
+    .site-article-title {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        h1{
+            text-align: center;
+        }
+        div {
+            text-align: center;
+            margin: 1em;
+        }
+    }
+    .site-article-media{
+        .big-new{
+            margin-top: 2em;
+            img{
+                width: 150%;
+            }
+        }
+        .small-news{
+            display: grid;
+            grid-template-columns: repeat(3 , 1fr);
+            div{
+                padding: 1em;
+            }
+
+        }
+    }
+  }
+}

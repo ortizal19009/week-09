@@ -70,6 +70,10 @@ input[type="submit"]:hover {
         li{
             border: 1px solid $dark-gray;
         }
+        li:hover{
+            background-color: $light-gray;
+            cursor: pointer;
+        }
     }
 
   }

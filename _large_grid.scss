@@ -43,6 +43,8 @@ form {
   grid-row: 1;
   grid-column-start: 6;
   grid-column-end: 13;
+  margin: 1.5em;
+  margin-left: 10em;
 }
 main {
   display: grid;
@@ -89,7 +91,7 @@ main {
   div {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 50px 60px 60px;
+    grid-template-rows: 50px 70px 60px;
 
     .img {
       img {
